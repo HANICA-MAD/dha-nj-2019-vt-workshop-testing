@@ -1,0 +1,13 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            Test app.
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ul>
+        <cow *ngFor="let cow of cows" [cow]="cow"></cow>
+    </ul>
+</ion-content>
